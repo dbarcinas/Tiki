@@ -1,8 +1,10 @@
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.2.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiki", "Tiki.csproj", "{F560007E-E768-8802-CFF1-42F94C12025A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiki.App", "Tiki.App\Tiki.App.csproj", "{7D233245-A76E-4FF1-9514-E7FE059FC58E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tiki.Tests", "Tiki.Tests\Tiki.Tests.csproj", "{5F1A3239-45AA-4C3D-8138-CD8035B13A01}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,6 +16,14 @@ Global
 		{F560007E-E768-8802-CFF1-42F94C12025A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F560007E-E768-8802-CFF1-42F94C12025A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F560007E-E768-8802-CFF1-42F94C12025A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D233245-A76E-4FF1-9514-E7FE059FC58E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D233245-A76E-4FF1-9514-E7FE059FC58E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D233245-A76E-4FF1-9514-E7FE059FC58E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D233245-A76E-4FF1-9514-E7FE059FC58E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F1A3239-45AA-4C3D-8138-CD8035B13A01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F1A3239-45AA-4C3D-8138-CD8035B13A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F1A3239-45AA-4C3D-8138-CD8035B13A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F1A3239-45AA-4C3D-8138-CD8035B13A01}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
