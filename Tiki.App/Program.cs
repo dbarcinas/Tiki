@@ -4,10 +4,19 @@ namespace Tiki.App
 {
   class Program
   {
-    static TicketRepository repository = new TicketRepository();
+    static readonly TicketRepository repository = new();
+    static readonly TicketDataService dataService = new();
 
     static void Main(string[] args)
     {
+      // Load existing tickets from file
+      var loadedTickets = TicketDataService.LoadTickets();
+
+      foreach (var ticket in loadedTickets)
+      {
+        repository.AddTicket(ticket);
+      }
+
       bool exit = false;
       while (!exit)
       {
@@ -44,6 +53,9 @@ namespace Tiki.App
             break;
         }
       }
+
+      // Save ticket
+      dataService.SaveTickets(repository.GetAllTickets());
     }
 
     static void CreateTicket()
