@@ -1,7 +1,4 @@
-using System.Collections.Generic;
-using System.Linq;
-
-namespace Tiki
+namespace Tiki.App
 {
   public class TicketRepository
   {

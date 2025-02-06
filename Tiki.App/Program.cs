@@ -1,8 +1,6 @@
 ﻿using Spectre.Console;
-using System;
-using Tiki;
 
-namespace Tiki
+namespace Tiki.App
 {
   class Program
   {

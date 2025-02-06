@@ -1,6 +1,4 @@
-using System.Linq;
-using Tiki;
-using Xunit;
+using Tiki.App;
 
 namespace Tiki.Tests
 {
