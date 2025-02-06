@@ -17,13 +17,13 @@ namespace Tiki.App
             new SelectionPrompt<string>()
                 .Title("Welcome to [green]Tiki Ticket System[/] - Select an option:")
                 .PageSize(10)
-                .AddChoices(new[] {
-                            "Create Ticket",
-                            "View All Tickets",
-                            "Update Ticket",
-                            "Delete Ticket",
-                            "Exit"
-                }));
+                .AddChoices([
+                  "Create Ticket",
+                  "View All Tickets",
+                  "Update Ticket",
+                  "Delete Ticket",
+                  "Exit"
+                ]));
 
         switch (choice)
         {
